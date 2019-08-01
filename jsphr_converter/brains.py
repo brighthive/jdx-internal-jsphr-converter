@@ -43,7 +43,6 @@ def convert_to_hr(jsphr_data):
                 text = out(text, _format_sub(item))
 
         else:
-            assert(isinstance(value, str))
             text = out(text, _format_body(value))
         
         text = out(text, '\n')
